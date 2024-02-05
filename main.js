@@ -15,8 +15,8 @@ let tableau = ["un", "deux", "trois", "quatre", "cinq"];
 
 console.log(tableau[tableau.length - 1]);
 
-let tableau2 = tableau.map((element) => {
-  return element + "!";
+let tableau2 = tableau.map((nums) => {
+  return nums + "!";
 });
 
 console.log(tableau2);
