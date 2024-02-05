@@ -39,3 +39,35 @@
 ### load
 
 - **Fonctionnalité :** L'événement "load" se déclenche lorsque la page web entière est chargée, y compris les ressources externes telles que les images, les feuilles de style et les scripts. Il est utilisé pour des tâches d'initialisation globale de la page.
+
+---
+
+## Méthodes `getElementBy` en JavaScript
+
+Les méthodes suivantes sont utilisées pour accéder aux éléments HTML dans une page web en JavaScript :
+
+### `getElementById()`
+
+- **Fonctionnalité :** Cette méthode permet de récupérer un élément HTML en utilisant son attribut `id`. Elle renvoie l'élément correspondant à l'`id` spécifié.
+
+### `getElementsByClassName()`
+
+- **Fonctionnalité :** Cette méthode permet de récupérer un ensemble d'éléments HTML en utilisant leur classe CSS. Elle renvoie une collection d'éléments correspondant à la classe spécifiée.
+
+### `getElementsByTagName()`
+
+- **Fonctionnalité :** Cette méthode permet de récupérer un ensemble d'éléments HTML en utilisant leur balise HTML. Elle renvoie une collection d'éléments correspondant à la balise spécifiée.
+
+### `querySelector()`
+
+- **Fonctionnalité :** Cette méthode permet de récupérer le premier élément HTML correspondant à un sélecteur CSS spécifié. Elle renvoie l'élément correspondant ou `null` s'il n'y en a aucun.
+
+### `querySelectorAll()`
+
+- **Fonctionnalité :** Cette méthode permet de récupérer tous les éléments HTML correspondant à un sélecteur CSS spécifié. Elle renvoie une collection de tous les éléments correspondants.
+
+### `getElementByName()` (utilisé principalement avec les formulaires)
+
+- **Fonctionnalité :** Cette méthode permet de récupérer un ensemble d'éléments de formulaire HTML en utilisant leur attribut `name`. Elle renvoie une collection d'éléments correspondant à l'attribut `name` spécifié.
+
+Ces méthodes sont essentielles pour accéder, manipuler et interagir avec les éléments HTML dans vos scripts JavaScript. Choisissez la méthode appropriée en fonction de vos besoins et de la structure de votre page web.

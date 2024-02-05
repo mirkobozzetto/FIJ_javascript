@@ -19,3 +19,11 @@ let tableau2 = tableau.map((nums) => {
 });
 
 console.log(tableau2);
+
+// j aimerais utiliser node type
+
+let tableau3 = tableau.map((nums) => {
+  return nums.nodeType;
+});
+
+console.log(tableau3);
