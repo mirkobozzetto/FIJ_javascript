@@ -10,7 +10,6 @@ const secondChildNode = document.body.childNodes[1];
 
 console.log(secondChildNode);
 
-// cree moi un tableau avec 5 elements de strings
 let tableau = ["un", "deux", "trois", "quatre", "cinq"];
 
 console.log(tableau[tableau.length - 1]);
